@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora PHP</title>
+</head>
+<body>
+
+    <h1>Calculadora simples</h1>
+    <form action="calculadora.php" method="post">
+        <p>
+            <label>Valor 1:</label>
+            <input type="number" name="val1" size="5">
+        </p>
+
+        <p>
+            <label>Escolha:</label>
+            <select name="tipo">
+                <option selected="selected">Somar</option>
+                <option> Subtrair </option>
+                <option>Multiplicar</option>
+                <option>Dividir</option>
+            </select>    
+        </p>
+
+        <p>
+            <label>Valor 2:</label>
+            <input type="number" name="val2">    
+        </p>
+
+        <p>
+            <input type="submit" value="Calcular" name="SendCadUser">
+        </p>
+        
+
+    </form>
+    
+</body>
+</html>
